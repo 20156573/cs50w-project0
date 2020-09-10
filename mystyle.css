@@ -1,0 +1,101 @@
+body {
+    background-color: #293352;
+}
+/* Quidditch */
+nav div>a, span {
+    font-family: 'Merriweather Light', 'Times New Roman', serif;
+    font-size: 110%;
+    font-style: normal;
+    color: #a51c30;
+}
+nav div>a:hover {
+    color: #a51c30;
+    text-decoration: none;
+}
+
+/* Nha */
+.dropdown {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 1px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+.dropdown-content a {
+    padding: 6px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown .dropdown-content a:hover {
+    color: #ffffff;
+    background-color: #a51c30;
+}
+
+.fa-igloo {
+    color: #a51c30;
+}
+
+#search {
+    border: 2px none lightblue;
+    border-radius: 25px;
+}
+
+input[type=search] {
+    box-sizing: border-box;
+    width: 200px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=search]:focus {
+    outline: 0;     
+    outline-style: none;     
+    outline-width: 0; 
+    width: 350px;
+}
+.navbar { 
+    position: relative;
+}
+  
+.navbar-brand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/* gryffindor */
+.body-of-body-image {
+    width: 100%;
+}
+.body-of-body{
+    background-color: #ffffff !important;
+    padding: 5%;
+}
+
+/* Qd */
+h2 {
+    font-family: 'Merriweather Light', 'Times New Roman', serif;
+    /* text-align: center; */
+    font-style: normal;
+    color: #a51c30;
+}
+#footer {
+    background-color: #414141 !important;
+    height: 200px;
+}
+#footer p {
+    text-align: center;
+    position: relative;
+    top: 80%;
+}
